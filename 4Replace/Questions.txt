@@ -1,0 +1,7 @@
+2:
+Q:Can a string be replaced twice?
+A:No
+
+3:
+Q:Does replace only work with words or also phrases?
+A:also phrases.

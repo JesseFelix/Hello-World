@@ -1,0 +1,7 @@
+2:
+Q:Is string find case sensitive?
+A:Yes
+
+3:
+Q:What if a query sting appears twice in the string?
+A:The same thing as if only one appears
