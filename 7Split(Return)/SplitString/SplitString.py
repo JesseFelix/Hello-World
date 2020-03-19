@@ -1,3 +1,5 @@
-s = "World,Earth,America,Canada"
-words = s.split()
-print(words)
+string = "World.Earth.America.Canada"
+
+x = string.split(".")
+
+print(x)
