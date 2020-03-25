@@ -1,4 +1,11 @@
-#What is the date?
+#Prints out today's date
+print("What year is it?:")
+year = raw_input()
 
-date = raw_input("What is the date today?")
-print("Today is" + " " + date)
+print("What month is it?:")
+month = raw_input()
+
+print("What day is it?:")
+day = raw_input()
+
+print("Today is" + " " + month + " " + day + " " + year)
