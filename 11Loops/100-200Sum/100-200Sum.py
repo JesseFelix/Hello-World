@@ -1,8 +1,11 @@
-number = 99
+print("What's the lowest number you want summed?")
+num1 = int(raw_input()) - 1
+
+print("What's the highest number you want summed?")
+num2 = int(raw_input())
 
 print("Number Loop:")
 
-while number < 200:
-	number = number + 1
-
-	print("%s + %s = %s" % (number, 1, number)),
+while num1 < num2:
+	num1 = num1 + 1
+	print("%s + %s = %s" % (num1, 1, num1)),
