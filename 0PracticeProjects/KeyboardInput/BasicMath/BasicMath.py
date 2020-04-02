@@ -1,8 +1,8 @@
-print("Would you like to a - Add, b - Subtract, c - Multiply or d - Divide")
+print("Would you like to A - Add, B - Subtract, C - Multiply or D - Divide")
 ans = raw_input()
 
 #adds two numbers inputed
-if ans == "a":
+if ans == "a" or ans == "A":
 	print("What is the first number you would like to add?")
 	aNum1 = int(raw_input())
 	print("What is the second number you would like to add?")
@@ -14,10 +14,10 @@ if ans == "a":
 	print(add(aNum1, aNum2))
 
 #subtracts two numbers inputed
-if ans == "b":
-	print("What is the first number would you like to subtract?")
+if ans == "b" or ans == "B":
+	print("What is the number you would like to subtract?")
 	bNum1 = int(raw_input())
-	print("What is the second number you would like to subtract?")
+	print("What would you like to subtract it by?")
 	bNum2 = int(raw_input())
 	def sub(bNum1, bNum2):
 		bNum3 = bNum1 - bNum2
@@ -25,7 +25,7 @@ if ans == "b":
 	print(sub(bNum1, bNum2))
 
 #multiplies two numbers inputed
-if ans == "c":
+if ans == "c" or ans == "C":
 	print("What is the first number you would like to multiply?")
 	cNum1 = int(raw_input())
 	print("What is the second number you would like to multiply?")
@@ -37,10 +37,10 @@ if ans == "c":
 	print(mult(cNum1,cNum2))
 
 #divides two numbers inputed
-if ans == "d":
-	print("What is the first number you would like to divide?")
+if ans == "d" or ans == "D":
+	print("What number would you like to get divided?")
 	dNum1 = int(raw_input())
-	print("What is the second number you would like to divide?")
+	print("What would you like to divide that number by?")
 	dNum2 = int(raw_input())
 	def div(dNum1, dNum2):
 		dNum3 = dNum1 / dNum2

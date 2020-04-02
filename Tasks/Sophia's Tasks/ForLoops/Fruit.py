@@ -3,5 +3,5 @@
 fruit = ["Apple", "Pear", "Watermelon", "Orange", "Kiwi"] 
   
 # printing the list using loop 
-for x in range(len(fruit)): 
-    print fruit[x],
+for x in (fruit): 
+    print(x)
