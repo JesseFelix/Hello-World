@@ -1,9 +1,9 @@
 #powers of 2
-n = 10
+n = 4
 
-x = 2
+x = int(raw_input())
 
 while x < n:
-	answer = x ** 2	
-	print("%s^2 = %s" % (x, answer))
-print(r)
+	saveValue = x
+	x = x * 2	
+	print("%s^2 = %s" % (saveValue, x))
