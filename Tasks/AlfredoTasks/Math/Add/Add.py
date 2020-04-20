@@ -6,7 +6,7 @@ print("What would you like %s to be added with?" % (a))
 b= int(raw_input())
 
 def add (a,b):
-	c = a+b
+	c = a + b
 	print("%s + %s = %s" % (a,b,c))
 
 print(add(a,b))

@@ -1,4 +1,4 @@
-#creates a formula to add "a" and "b" numbers
+#creates a formula to divide numbers "a" and "b"
 print("What number would you like to be divided")
 a = int(raw_input())
 
