@@ -1,8 +1,11 @@
 
-#prints today's date
+#Asks questions which the answers to determine the date
+print("What year is it?")
+year = raw_input()
+print("What month is it?")
+month = raw_input()
+print("What day is it?")
+day = raw_input()
 
-day = "17"
-month = "03"
-year = "20"
-
-print("Today is %s/%s/%s." % (day, month, year))
+#displays the date
+print("Today is %s %s, %s." % (month, day, year))
