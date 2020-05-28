@@ -12,16 +12,15 @@ window = Tk()
 
 window.title("Movie List")
 
-#//scrollBar still WIP
+#//Creates the scrollBar
 scrollBar = Scrollbar(window)
-scrollBar.pack(side = RIGHT, fill = "y")#grid(row = 1, column = 3)
-
+scrollBar.pack(side = RIGHT, fill = "y")
 
 #//the url required for the API
 movieList = requests.get("https://api.themoviedb.org/3/movie/popular?api_key=a5f742b557bc804d7687bb27d931810a&language=en-US&page=1")
 
 movie = movieList.json()
-results = movie["results"] #Array
+results = movie["results"]
 for outcome in results:
 
 #//the different calls for the information from the .json file
